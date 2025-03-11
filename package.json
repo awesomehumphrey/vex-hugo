@@ -13,5 +13,12 @@
     "update-modules": "node ./scripts/clearModules.js && hugo mod clean --all && hugo mod get -u ./... && hugo mod tidy",
     "project-setup": "node ./scripts/projectSetup.js",
     "theme-setup": "node ./scripts/themeSetup.js"
+  },
+  "dependencies": {
+    "tinacms": "^2.7.2"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.9.2",
+    "@types/node": "^22.13.10"
   }
 }
